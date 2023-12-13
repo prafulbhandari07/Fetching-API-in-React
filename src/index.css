@@ -4,6 +4,7 @@ body {
   width: 100vw;
   height: 100vh;
   box-sizing: border-box;
+  overflow-x: hidden;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -16,12 +17,9 @@ code {
     monospace;
 }
 
-
-
 .container {
   width: 100%;
   height: 100%;
-  background-color: #f4f4f4;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -31,32 +29,33 @@ code {
   height: 60%;
   width: 100%;
   margin: 0px 50px;
-  background-color: white;
   display: flex;
   align-items: center;
 }
 
 .card {
-  
   height: 80%;
   margin-left: 1rem;
   padding-top: 10px;
-
 }
 
 header {
   width: 100%;
   height: 100px;
-  background-color: black;
+  background-color: rgb(25, 150, 129);
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
+header h1 {
+  color: peachpuff;
+  text-shadow: 3px 3px black;
+}
+
 #navbar {
   width: 90%;
   height: 90%;
-  background-color: azure;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -78,5 +77,4 @@ header input {
 
 .card-block {
   overflow-x: scroll;
-
 }
