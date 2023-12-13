@@ -24,7 +24,7 @@ function App() {
   async function fetchCountry() {
     const response = await fetch(apiUrl);
     const data = await response.json();
-    
+
     setCountries(data)
     setFilteredCountries(data)
   }
@@ -40,4 +40,3 @@ function App() {
 }
 
 export default App;
- 
