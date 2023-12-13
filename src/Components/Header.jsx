@@ -13,4 +13,3 @@ function Header(props) {
 }
 
 export default Header;
-//placeholder="Search Countries Here..."
